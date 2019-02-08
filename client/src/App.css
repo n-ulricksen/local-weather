@@ -1,0 +1,15 @@
+* {
+  font-family: 'Roboto', sans-serif;
+}
+
+html {
+  background: #e2e2e2;
+}
+
+.App {
+  height: 1vh;
+}
+
+h1 {
+  text-align: center;
+}

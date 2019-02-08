@@ -1,0 +1,12 @@
+
+
+
+front-end get user location:
+// Get user location
+  if ("geolocation" in navigator) {
+    navigator.geolocation.getCurrentPosition(position => {
+      console.log(position);
+    });
+  } else {
+    /* geolocation IS NOT available */
+  }

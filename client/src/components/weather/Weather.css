@@ -1,0 +1,100 @@
+.Weather {
+  background: #1f2a3a;
+  height: 240px;
+  width: 768px;
+  margin: 10% auto 0;
+}
+
+.loading {
+  font-size: 24px;
+  color: #fff;
+  text-align: center;
+  padding-top: 80px;
+}
+
+/* Current Temperature/Date */
+.current-temp-display {
+  margin-top: 34px;
+  margin-left: 48px;
+  width: 144px;
+  float: left;
+}
+
+.date-info {
+  font-size: 16px;
+  color: #515151;
+}
+
+#current-temp {
+  color: #fff;
+  font-size: 98px;
+  text-shadow: 2px 2px 2px #333;
+  font-weight: 300;
+  line-height: 82px;
+  padding-top: 2px;
+}
+
+#current-date {
+  text-align: right;
+}
+
+/* Current Weather Condtion */
+.current-weather-display {
+  float: left;
+  width: 94px;
+  margin-left: 26px;
+  margin-top: 34px;
+  text-align: center;
+}
+
+#current-condition {
+  color: #fff;
+  font-size: 16px;
+  text-shadow: 2px 2px 2px #333;
+  margin-bottom: 10px;
+}
+
+.current-weather-display i {
+  font-size: 94px;
+  color: #2b9bb5;
+}
+
+/* Weather Forecast Display */
+.forecast-display {
+  float: right;
+  margin-left: 32px;
+  text-align: center;
+}
+
+.forecast-display td {
+  border-left: 1px solid black;
+  width: 75px;
+}
+
+.forecast-day {
+  margin-top: 34px;
+  font-size: 11px;
+  text-transform: uppercase;
+  color: #515151;
+}
+
+.forecast-icon i {
+  color: #fff;
+  font-size: 30px;
+  margin: 38px 0 16px;
+}
+
+.forecast-temp {
+  color: #fff;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+/* Summary */
+.summary {
+  clear: both;
+  color: #fff;
+  padding: 20px;
+  font-size: 18px;
+  font-weight: 200;
+}
