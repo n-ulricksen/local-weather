@@ -16,9 +16,6 @@ app.use(function(req, res, next) {
   next();
 });
 
-// ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-// Body Parser middleware
-// ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 app.use(express.json());
 
 // Use Routes
