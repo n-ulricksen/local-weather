@@ -1,4 +1,4 @@
-export default {
+const icons = {
   "clear-day": "wi-day-sunny", 
   "clear-night": "wi-night-clear", 
   rain: "wi-rain", 
@@ -10,3 +10,5 @@ export default {
   "partly-cloudy-day": "wi-day-cloudy", 
   "partly-cloudy-night": "wi-night-alt-cloudy" 
 }
+
+export default icons;
